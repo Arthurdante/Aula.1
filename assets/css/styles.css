@@ -7,4 +7,8 @@ h2 {
 h3 {
   color: gainsboro; /*atributo css color*/
 }
+.menu {list-style: none;
+    padding: 0;
+    display: flex;
+}
 
