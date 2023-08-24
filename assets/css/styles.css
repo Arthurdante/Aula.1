@@ -1,14 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,200;0,600;1,300;1,900&display=swap");
+
+body {
+  font-family: "Noto Serif", serif;
+}
 h1 {
   color: red; /*atributo css color*/
 }
 h2 {
-    color: rgb(145, 255, 0); /*atributo css color*/
-  }
+  color: rgb(145, 255, 0); /*atributo css color*/
+}
 h3 {
-  color: gainsboro; /*atributo css color*/
+  color: rgb(195, 103, 103); /*atributo css color*/
 }
-.menu {list-style: none;
-    padding: 0;
-    display: flex;
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
 }
-
+.menu li {
+  border: 1px solid rebeccapurple;
+  flex: 1;
+  justify-content: space-between;
+}
+.border {
+  border: 1px solid rebeccapurple;
+  box-sizing: border-box;
+}
+.container-custon {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  flex-basis: 50%;
+}
+.logo {
+}
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+.fundo{
+  background-image: url('//picsum.photo/400/400');
+  background-size: cover;
+}
