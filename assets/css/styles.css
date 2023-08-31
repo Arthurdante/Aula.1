@@ -2,6 +2,10 @@
 
 body {
   font-family: "Noto Serif", serif;
+  background-image: url('//picsum.photos/1920/1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 h1 {
   color: red; /*atributo css color*/
@@ -29,16 +33,13 @@ h3 {
   border: 1px solid rebeccapurple;
   box-sizing: border-box;
 }
-.container-custon {
+.container {
   max-width: 1400px;
   margin: 0 auto;
 }
 .linha {
   display: flex;
   flex-wrap: wrap;
-}
-.col {
-  flex-basis: 50%;
 }
 .logo {
 }
@@ -47,6 +48,8 @@ h3 {
   height: auto;
 }
 .fundo{
-  background-image: url('//picsum.photo/400/400');
-  background-size: cover;
+  background-image: url('/assets/images/pode.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
